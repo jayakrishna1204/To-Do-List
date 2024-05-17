@@ -3,6 +3,8 @@
 from flask import Flask, request, render_template
 from datetime import date
 import pymysql
+from werkzeug.utils import quote
+
 
 app = Flask(__name__)
 
