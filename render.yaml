@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: to-do-list-flask-app
+    env: python
+    region: oregon  # or any region of your choice
+    plan: free  # or any plan of your choice
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    build:
+      commands:
+        - "apt-get update && apt-get install -y python3-dev default-libmysqlclient-dev build-essential"
