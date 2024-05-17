@@ -1,45 +1,5 @@
 <!doctype html>
 <html lang="en">
-
-<style type='text/css'>
-    * {
-        padding: 0;
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-
-    body {
-        /* background-image: url('https://cutewallpaper.org/21/1920-x-1080-gif/1920x1080-Wallpapercartoon-Wallpapers-Driverlayer-Search-.gif'); */
-        background-image: url('/static/light.jpg');
-        background-size: cover;
-        font-family: sans-serif;
-        margin-top: 40px;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-    }
-
-    table {
-        border: 1px;
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 86%;
-        margin: auto;
-    }
-
-    td,
-    th {
-        border: 1px solid black !important;
-        padding: 5px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-    }
-</style>
-
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -51,6 +11,43 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <title>To-Do List</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    
+    <style type='text/css'>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-image: url('/static/light.jpg');
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+
+        table {
+            border: 1px;
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 86%;
+            margin: auto;
+        }
+
+        td,
+        th {
+            border: 1px solid black !important;
+            padding: 5px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
 </head>
 
 <body>
@@ -73,7 +70,6 @@
             </div>
         </div>
     </nav>
-
 
     <div class='mt-1 text-center'>
         <h1 style="width: auto;margin: auto;color: white;padding: 11px;font-size: 44px;">To-Do List</h1>
