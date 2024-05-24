@@ -1,6 +1,0 @@
-we work on add some functionalities
-start to end date
-
-It means begin to end deadline alert functionalities
-max timeline(imp) or start date to 
-end date(timeline)
