@@ -6,7 +6,7 @@ Develop the Add New Task and create a new message in the Task List spend on any 
 
 Under the action of the messages save in local functional directory in Python.
 
-Skills - Python,  Flask,  HTML, Gunicorn, YAML
+Skills - Python,  Flask,  HTML, Gunicorn, YAML, Render
 
 # Preview of To-Do-List Web Activity: -
 
